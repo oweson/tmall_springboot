@@ -26,7 +26,9 @@ public class CategoryController {
     CategoryService categoryService;
 
     @GetMapping("/categories")
-    public Page4Navigator<Category> list(@RequestParam(value = "start", defaultValue = "0") int start, @RequestParam(value = "size", defaultValue = "5") int size) throws Exception {
+    public Page4Navigator<Category> list(@RequestParam(value = "start", defaultValue = "0")
+                                                     int start, @RequestParam(value = "size",
+            defaultValue = "5") int size) throws Exception {
         start = start < 0 ? 0 : start;
         Page4Navigator<Category> page = categoryService.list(start, size, 5);
         //5表示导航分页最多有5个，像 [1,2,3,4,5] 这样
@@ -52,6 +54,9 @@ public class CategoryController {
         ImageIO.write(img, "jpg", file);
     }
 
+    /**
+     * 删除分类和分类下面的图片
+     */
     @DeleteMapping("/categories/{id}")
     public String delete(@PathVariable("id") int id, HttpServletRequest request) throws Exception {
         categoryService.delete(id);
@@ -61,6 +66,9 @@ public class CategoryController {
         return null;
     }
 
+    /**
+     * 过
+     */
     @GetMapping("/categories/{id}")
     public Category get(@PathVariable("id") int id) throws Exception {
         Category bean = categoryService.get(id);
@@ -73,6 +81,7 @@ public class CategoryController {
         bean.setName(name);
         categoryService.update(bean);
         if (image != null) {
+            // todo 处理图片,可为空
             saveOrUpdateImageFile(bean, image, request);
         }
         return bean;

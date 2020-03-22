@@ -67,7 +67,9 @@ public class CategoryService {
 		return categoryDAO.findAll(sort);
 	}
 
-	//这个方法的用处是删除Product对象上的 分类。 为什么要删除呢？ 因为在对分类做序列还转换为 json 的时候，会遍历里面的 products, 然后遍历出来的产品上，又会有分类，接着就开始子子孙孙无穷溃矣地遍历了，就搞死个人了
+	//这个方法的用处是删除Product对象上的 分类。 为什么要删除呢？
+	// 因为在对分类做序列还转换为 json 的时候，会遍历里面的 products,
+	// 然后遍历出来的产品上，又会有分类，接着就开始子子孙孙无穷溃矣地遍历了，就搞死个人了
 	//而在这里去掉，就没事了。 只要在前端业务上，没有通过产品获取分类的业务，去掉也没有关系
 	
 	public void removeCategoryFromProduct(List<Category> cs) {

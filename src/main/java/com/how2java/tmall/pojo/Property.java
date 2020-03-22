@@ -16,10 +16,12 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.ToString;
 
 @Entity
 @Table(name = "property")
 @JsonIgnoreProperties({ "handler","hibernateLazyInitializer" })
+@ToString
 public class Property {
 
 	

@@ -40,9 +40,6 @@ public class OrderService {
 	@Autowired OrderDAO orderDAO;
 	
 	@Autowired OrderItemService orderItemService;
-
-
-	
 	public List<Order> listByUserWithoutDelete(User user) {
 		OrderService orderService = SpringContextUtil.getBean(OrderService.class);
 		List<Order> orders = orderService.listByUserAndNotDeleted(user);

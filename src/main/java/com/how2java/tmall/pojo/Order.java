@@ -21,10 +21,12 @@ import javax.persistence.Transient;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.how2java.tmall.service.OrderService;
+import lombok.ToString;
 
 @Entity
 @Table(name = "order_")
 @JsonIgnoreProperties({ "handler","hibernateLazyInitializer" })
+@ToString
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) 

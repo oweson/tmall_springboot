@@ -17,9 +17,11 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.ToString;
 
 @Entity
 @Table(name = "category")
+@ToString
 @JsonIgnoreProperties({ "handler","hibernateLazyInitializer" })
 
 public class Category {

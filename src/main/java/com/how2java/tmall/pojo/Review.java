@@ -18,10 +18,12 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.ToString;
 
 @Entity
 @Table(name = "review")
 @JsonIgnoreProperties({ "handler","hibernateLazyInitializer" })
+@ToString
 public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

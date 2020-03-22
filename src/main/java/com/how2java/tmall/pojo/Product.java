@@ -18,6 +18,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import lombok.ToString;
 import org.springframework.data.elasticsearch.annotations.Document;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -26,12 +27,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Table(name = "product")
 @JsonIgnoreProperties({ "handler","hibernateLazyInitializer"})
 @Document(indexName = "tmall_springboot",type = "product")
+@ToString
 public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
 	int id;
-
 	@ManyToOne
 	@JoinColumn(name="cid")
 	private Category category;

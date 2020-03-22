@@ -17,10 +17,12 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.ToString;
 
 @Entity
 @Table(name = "productImage")
 @JsonIgnoreProperties({ "handler","hibernateLazyInitializer"})
+@ToString
 public class ProductImage {
 	
     @Id
