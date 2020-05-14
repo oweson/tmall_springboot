@@ -52,7 +52,6 @@ public class ForeRESTController {
         productService.fill(cs);
         productService.fillByRow(cs);
         categoryService.removeCategoryFromProduct(cs);
-        
         return cs;
     }
     @PostMapping("/foreregister")

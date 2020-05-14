@@ -1,8 +1,4 @@
-/**
-* 模仿天猫整站 springboot 教程 为 how2j.cn 版权所有
-* 本教程仅用于学习使用，切勿用于非法用途，由此引起一切后果与本站无关
-* 供购买者学习，请勿私自传播，否则自行承担相关法律责任
-*/	
+
 
 package com.how2java.tmall.interceptor;
 
@@ -44,7 +40,6 @@ public class OtherInterceptor implements HandlerInterceptor {
         
     	List<Category> cs =categoryService.list();
     	String contextPath=httpServletRequest.getServletContext().getContextPath();
-
     	httpServletRequest.getServletContext().setAttribute("categories_below_search", cs);
         session.setAttribute("cartTotalItemNumber", cartTotalItemNumber);
     	httpServletRequest.getServletContext().setAttribute("contextPath", contextPath);
@@ -55,8 +50,4 @@ public class OtherInterceptor implements HandlerInterceptor {
     }
 }
 
-/**
-* 模仿天猫整站 springboot 教程 为 how2j.cn 版权所有
-* 本教程仅用于学习使用，切勿用于非法用途，由此引起一切后果与本站无关
-* 供购买者学习，请勿私自传播，否则自行承担相关法律责任
-*/	
+
