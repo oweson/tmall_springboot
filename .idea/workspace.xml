@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="06807f4d-d51c-452f-88c4-75948e27f84d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/es/ProductESDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/es/ProductESDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/PropertyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/PropertyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ForeRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ForeRESTController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/PropertyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/PropertyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/how2java/tmall/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/how2java/tmall/service/ProductService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,34 +20,16 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/es/ProductESDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ForeRESTController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/ProductService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="149" column="13" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
+            <state relative-caret-position="317">
+              <caret line="126" column="40" lean-forward="true" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
               <folding>
-                <element signature="e#1934#1935#0" expanded="true" />
-                <element signature="e#1970#1971#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#5985#5986#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2438">
-              <caret line="177" selection-start-line="177" selection-end-line="177" />
             </state>
           </provider>
         </entry>
@@ -54,8 +37,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
+            <state relative-caret-position="1035">
               <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/PropertyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/PropertyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="920">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +90,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ForePageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ForeRESTController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/dao/CardDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/CategoryService.java" />
@@ -104,6 +108,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/es/ProductESDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ForeRESTController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/PropertyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/PropertyService.java" />
       </list>
     </option>
   </component>
@@ -124,11 +131,11 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="83" />
-    <option name="y" value="16" />
-    <option name="width" value="1745" />
-    <option name="height" value="990" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="80" />
+    <option name="y" value="13" />
+    <option name="width" value="1747" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -138,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,7 +227,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,17 +288,20 @@
       <workItem from="1587827233532" duration="36000" />
       <workItem from="1588242779716" duration="7748000" />
       <workItem from="1589465143615" duration="2353000" />
-      <workItem from="1589706682559" duration="1906000" />
+      <workItem from="1589706682559" duration="1958000" />
+      <workItem from="1589725712488" duration="1967000" />
+      <workItem from="1589893937513" duration="261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12362000" />
+    <option name="totallyTimeSpent" value="14642000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="845" extended-state="7" />
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2664452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1780731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -299,15 +309,15 @@
       <window_info id="Alibaba Cloud Explorer" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.17671809" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25666198" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.17671809" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7531557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35764375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Analysis" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.13725491" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.08274895" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -344,13 +354,6 @@
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1195#1196#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -433,13 +436,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -562,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/CardService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -604,30 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ForeRESTController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2438">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/es/ProductESDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -637,11 +602,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="2737">
           <caret line="149" column="13" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="22" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2507">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ForeRESTController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="126" column="40" lean-forward="true" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
           <folding>
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#1970#1971#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#5985#5986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/web/PropertyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/PropertyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
           </folding>
         </state>
       </provider>
