@@ -1,8 +1,4 @@
-/**
- * 模仿天猫整站 springboot 教程 为 how2j.cn 版权所有
- * 本教程仅用于学习使用，切勿用于非法用途，由此引起一切后果与本站无关
- * 供购买者学习，请勿私自传播，否则自行承担相关法律责任
- */
+
 
 package com.how2java.tmall.web;
 
@@ -25,9 +21,12 @@ public class CategoryController {
     @Autowired
     CategoryService categoryService;
 
+    /**
+     * 1 查询所有的分类
+     */
     @GetMapping("/categories")
     public Page4Navigator<Category> list(@RequestParam(value = "start", defaultValue = "0")
-                                                     int start, @RequestParam(value = "size",
+                                                 int start, @RequestParam(value = "size",
             defaultValue = "5") int size) throws Exception {
         start = start < 0 ? 0 : start;
         Page4Navigator<Category> page = categoryService.list(start, size, 5);
@@ -35,6 +34,9 @@ public class CategoryController {
         return page;
     }
 
+    /**
+     * 2 添加分类
+     */
     @PostMapping("/categories")
     public Object add(Category bean, MultipartFile image, HttpServletRequest request) throws Exception {
         categoryService.add(bean);
@@ -55,7 +57,7 @@ public class CategoryController {
     }
 
     /**
-     * 删除分类和分类下面的图片
+     * 3 删除分类和分类下面的图片
      */
     @DeleteMapping("/categories/{id}")
     public String delete(@PathVariable("id") int id, HttpServletRequest request) throws Exception {
@@ -67,7 +69,7 @@ public class CategoryController {
     }
 
     /**
-     * 过
+     * 4 查询分类 过！
      */
     @GetMapping("/categories/{id}")
     public Category get(@PathVariable("id") int id) throws Exception {
@@ -75,6 +77,9 @@ public class CategoryController {
         return bean;
     }
 
+    /**
+     * 5 更新分类
+     */
     @PutMapping("/categories/{id}")
     public Object update(Category bean, MultipartFile image, HttpServletRequest request) throws Exception {
         String name = request.getParameter("name");

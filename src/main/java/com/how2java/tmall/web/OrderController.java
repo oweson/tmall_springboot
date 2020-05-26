@@ -23,19 +23,20 @@ public class OrderController {
     OrderService orderService;
     @Autowired
     OrderItemService orderItemService;
-
+/** 1 查询订单列表*/
     @GetMapping("/orders")
-    public Page4Navigator<Order> list(@RequestParam(value = "start", defaultValue = "0") int start, @RequestParam(value = "size", defaultValue = "5") int size) throws Exception {
+    public Page4Navigator<Order> list(@RequestParam(value = "start", defaultValue = "0") int start,
+                                      @RequestParam(value = "size", defaultValue = "5") int size) throws Exception {
         start = start < 0 ? 0 : start;
         Page4Navigator<Order> page = orderService.list(start, size, 5);
-        /**填充订单项*/
+        /*填充订单项*/
         orderItemService.fill(page.getContent());
         orderService.removeOrderFromOrderItem(page.getContent());
         return page;
     }
 
     /**
-     * 订单发货
+     * 2 订单发货
      */
     @PutMapping("deliveryOrder/{oid}")
     public Object deliveryOrder(@PathVariable int oid) throws IOException {
