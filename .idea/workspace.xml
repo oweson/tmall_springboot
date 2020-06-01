@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="1ea97c4d-ea38-4b20-a180-a473c26813ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tmall_springboot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/tmall_springboot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/how2java/tmall/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/how2java/tmall/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/tmall_springboot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/how2java/tmall/BreakPointTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/how2java/tmall/KeyMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/how2java/tmall/TmallSpringbootApplicationTests.class" beforeDir="false" />
+=======
     <list default="true" id="06807f4d-d51c-452f-88c4-75948e27f84d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/config/RedisConfig.java" afterDir="false" />
+>>>>>>> 8373da995c9cad9ae2bb6e5b1afce8d21c245ac9
+>>>>>>> bf161a7154668e90d0e7dddfb535544237dfee65
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +34,12 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
+>>>>>>> 8373da995c9cad9ae2bb6e5b1afce8d21c245ac9
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,6 +56,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+=======
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -75,6 +105,7 @@
         <option name="localRepository" value="D:\ITsoftware\repository" />
         <option name="mavenHome" value="D:/ITsoftware/maven/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\ITsoftware\maven\apache-maven-3.6.1\conf\settings.xml" />
+>>>>>>> 8373da995c9cad9ae2bb6e5b1afce8d21c245ac9
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -92,9 +123,16 @@
     <option name="width" value="1750" />
     <option name="height" value="995" />
   </component>
+  <component name="ProjectId" id="1btN0XtnzQwRe421aTzxAiMaosn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+=======
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -192,6 +230,7 @@
       </pane>
       <pane id="PackagesPane" />
     </panes>
+>>>>>>> 8373da995c9cad9ae2bb6e5b1afce8d21c245ac9
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -203,16 +242,123 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+=======
+>>>>>>> 8373da995c9cad9ae2bb6e5b1afce8d21c245ac9
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
+<<<<<<< HEAD
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+=======
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+>>>>>>> 8373da995c9cad9ae2bb6e5b1afce8d21c245ac9
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="BreakPointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.how2java.tmall.BreakPointTest" />
+      <module name="tmall_springboot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.how2java.tmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TmallSpringbootApplicationTests.exampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tmall_springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.how2java.tmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.how2java.tmall" />
+      <option name="MAIN_CLASS_NAME" value="com.how2java.tmall.TmallSpringbootApplicationTests" />
+      <option name="METHOD_NAME" value="exampleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TmallSpringbootApplicationTests.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tmall_springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.how2java.tmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.how2java.tmall" />
+      <option name="MAIN_CLASS_NAME" value="com.how2java.tmall.TmallSpringbootApplicationTests" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TmallSpringbootApplicationTests.getPages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tmall_springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.how2java.tmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.how2java.tmall" />
+      <option name="MAIN_CLASS_NAME" value="com.how2java.tmall.TmallSpringbootApplicationTests" />
+      <option name="METHOD_NAME" value="getPages" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TmallSpringbootApplicationTests.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tmall_springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.how2java.tmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.how2java.tmall" />
+      <option name="MAIN_CLASS_NAME" value="com.how2java.tmall.TmallSpringbootApplicationTests" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+=======
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -226,6 +372,7 @@
     </option>
   </component>
   <component name="RunManager">
+>>>>>>> 8373da995c9cad9ae2bb6e5b1afce8d21c245ac9
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="tmall_springboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.how2java.tmall.Application" />
@@ -246,6 +393,49 @@
       <created>1587807305356</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1582816349297</updated>
+      <workItem from="1582816354041" duration="3516000" />
+      <workItem from="1584197827858" duration="1275000" />
+      <workItem from="1584493731998" duration="177000" />
+      <workItem from="1584759699019" duration="6594000" />
+      <workItem from="1584802878913" duration="11636000" />
+      <workItem from="1589447212594" duration="1260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TmallSpringbootApplicationTests_save - 2020.03.21 at 11h 48m 45s.xml">
+      <configuration name="TmallSpringbootApplicationTests.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TmallSpringbootApplicationTests_save - 2020.03.21 at 11h 49m 55s.xml">
+      <configuration name="TmallSpringbootApplicationTests.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TmallSpringbootApplicationTests_save - 2020.03.21 at 11h 51m 49s.xml">
+      <configuration name="TmallSpringbootApplicationTests.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TmallSpringbootApplicationTests_saveAll - 2020.03.21 at 14h 34m 11s.xml">
+      <configuration name="TmallSpringbootApplicationTests.saveAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TmallSpringbootApplicationTests_update - 2020.03.21 at 14h 38m 07s.xml">
+      <configuration name="TmallSpringbootApplicationTests.update" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TmallSpringbootApplicationTests_getAll - 2020.03.21 at 14h 44m 02s.xml">
+      <configuration name="TmallSpringbootApplicationTests.getAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TmallSpringbootApplicationTests_getAll - 2020.03.21 at 14h 46m 35s.xml">
+      <configuration name="TmallSpringbootApplicationTests.getAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TmallSpringbootApplicationTests_getPages - 2020.03.21 at 14h 49m 55s.xml">
+      <configuration name="TmallSpringbootApplicationTests.getPages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TmallSpringbootApplicationTests_exampleTest - 2020.03.21 at 14h 59m 54s.xml">
+      <configuration name="TmallSpringbootApplicationTests.exampleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TmallSpringbootApplicationTests_exampleTest - 2020.03.21 at 15h 00m 55s.xml">
+      <configuration name="TmallSpringbootApplicationTests.exampleTest" configurationId="JUnit" />
+    </history-entry>
+=======
       <updated>1587807305356</updated>
       <workItem from="1587807309982" duration="106000" />
       <workItem from="1587826681159" duration="213000" />
@@ -306,10 +496,74 @@
       <window_info anchor="right" id="Bean Validation" order="11" />
       <window_info anchor="right" id="leetcode" order="12" side_tool="true" />
     </layout>
+>>>>>>> 8373da995c9cad9ae2bb6e5b1afce8d21c245ac9
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
+  <component name="WindowStateProjectService">
+    <state x="719" y="212" key="FileChooserDialogImpl" timestamp="1589447698942">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="719" y="212" key="FileChooserDialogImpl/0.0.1920.1050/1920.5.1920.1050@0.0.1920.1050" timestamp="1589447698942" />
+    <state width="1877" height="504" key="GridCell.Tab.0.bottom" timestamp="1589448761726">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="504" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.5.1920.1050@0.0.1920.1050" timestamp="1589448761726" />
+    <state width="1877" height="504" key="GridCell.Tab.0.center" timestamp="1589448761726">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="504" key="GridCell.Tab.0.center/0.0.1920.1050/1920.5.1920.1050@0.0.1920.1050" timestamp="1589448761726" />
+    <state width="1877" height="504" key="GridCell.Tab.0.left" timestamp="1589448761726">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="504" key="GridCell.Tab.0.left/0.0.1920.1050/1920.5.1920.1050@0.0.1920.1050" timestamp="1589448761726" />
+    <state width="1877" height="504" key="GridCell.Tab.0.right" timestamp="1589448761726">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="504" key="GridCell.Tab.0.right/0.0.1920.1050/1920.5.1920.1050@0.0.1920.1050" timestamp="1589448761726" />
+    <state width="1877" height="504" key="GridCell.Tab.1.bottom" timestamp="1589448761727">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="504" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.5.1920.1050@0.0.1920.1050" timestamp="1589448761727" />
+    <state width="1877" height="504" key="GridCell.Tab.1.center" timestamp="1589448761727">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="504" key="GridCell.Tab.1.center/0.0.1920.1050/1920.5.1920.1050@0.0.1920.1050" timestamp="1589448761727" />
+    <state width="1877" height="504" key="GridCell.Tab.1.left" timestamp="1589448761727">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="504" key="GridCell.Tab.1.left/0.0.1920.1050/1920.5.1920.1050@0.0.1920.1050" timestamp="1589448761727" />
+    <state width="1877" height="504" key="GridCell.Tab.1.right" timestamp="1589448761727">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="504" key="GridCell.Tab.1.right/0.0.1920.1050/1920.5.1920.1050@0.0.1920.1050" timestamp="1589448761727" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1589447703811">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.5.1920.1050@0.0.1920.1050" timestamp="1589447703811" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/com/how2java/tmall/BreakPointTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i==2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+=======
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -767,5 +1021,6 @@
         </settings>
       </state>
     </states>
+>>>>>>> 8373da995c9cad9ae2bb6e5b1afce8d21c245ac9
   </component>
 </project>

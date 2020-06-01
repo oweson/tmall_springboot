@@ -1,8 +1,4 @@
-/**
- * 模仿天猫整站 springboot 教程 为 how2j.cn 版权所有
- * 本教程仅用于学习使用，切勿用于非法用途，由此引起一切后果与本站无关
- * 供购买者学习，请勿私自传播，否则自行承担相关法律责任
- */
+
 
 package com.how2java.tmall.web;
 
@@ -61,9 +57,7 @@ public class ForeRESTController {
         String password = user.getPassword();
         name = HtmlUtils.htmlEscape(name);
         user.setName(name);
-
         boolean exist = userService.isExist(name);
-
         if (exist) {
             String message = "用户名已经被使用,不能使用";
             return Result.fail(message);
@@ -72,14 +66,10 @@ public class ForeRESTController {
         String salt = new SecureRandomNumberGenerator().nextBytes().toString();
         int times = 2;
         String algorithmName = "md5";
-
         String encodedPassword = new SimpleHash(algorithmName, password, salt, times).toString();
-
         user.setSalt(salt);
         user.setPassword(encodedPassword);
-
         userService.add(user);
-
         return Result.success();
     }
 
@@ -87,7 +77,6 @@ public class ForeRESTController {
     public Object login(@RequestBody User userParam, HttpSession session) {
         String name = userParam.getName();
         name = HtmlUtils.htmlEscape(name);
-
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken token = new UsernamePasswordToken(name, userParam.getPassword());
         try {
@@ -137,7 +126,6 @@ public class ForeRESTController {
         productService.fill(c);
         productService.setSaleAndReviewNumber(c.getProducts());
         categoryService.removeCategoryFromProduct(c);
-
         if (null != sort) {
             switch (sort) {
                 case "review":
@@ -166,10 +154,12 @@ public class ForeRESTController {
 
     @PostMapping("foresearch")
     public Object search(String keyword) {
-        if (null == keyword)
+        if (null == keyword) {
             keyword = "";
+        }
         List<Product> ps = productService.search(keyword, 0, 20);
         productImageService.setFirstProdutImages(ps);
+        // 设置销量
         productService.setSaleAndReviewNumber(ps);
         return ps;
     }
@@ -183,7 +173,6 @@ public class ForeRESTController {
     private int buyoneAndAddCart(int pid, int num, HttpSession session) {
         Product product = productService.get(pid);
         int oiid = 0;
-
         User user = (User) session.getAttribute("user");
         boolean found = false;
         List<OrderItem> ois = orderItemService.listByUser(user);
@@ -196,7 +185,6 @@ public class ForeRESTController {
                 break;
             }
         }
-
         if (!found) {
             OrderItem oi = new OrderItem();
             oi.setUser(user);
@@ -212,19 +200,14 @@ public class ForeRESTController {
     public Object buy(String[] oiid, HttpSession session) {
         List<OrderItem> orderItems = new ArrayList<>();
         float total = 0;
-
         for (String strid : oiid) {
             int id = Integer.parseInt(strid);
             OrderItem oi = orderItemService.get(id);
             total += oi.getProduct().getPromotePrice() * oi.getNumber();
             orderItems.add(oi);
         }
-
-
         productImageService.setFirstProdutImagesOnOrderItems(orderItems);
-
         session.setAttribute("ois", orderItems);
-
         Map<String, Object> map = new HashMap<>();
         map.put("orderItems", orderItems);
         map.put("total", total);
